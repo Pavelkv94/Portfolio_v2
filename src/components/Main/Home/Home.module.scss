@@ -1,0 +1,14 @@
+@import "./../../../common/styles/sass/variables.scss";
+
+.homeContainer {
+  border: $border;
+  background-color: cadetblue;
+  position: absolute;
+  left: 200px;
+  right: 0;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
