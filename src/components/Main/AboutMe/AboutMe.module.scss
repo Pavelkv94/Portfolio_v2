@@ -1,0 +1,43 @@
+@import "./../../../common/styles/sass/variables.scss";
+
+.aboutContainer {
+  border: $border;
+  background-color: rgb(96, 218, 167);
+  height: 100vh;
+  width: 100%;
+
+  .aboutBlock {
+    border: $border;
+    background-color: rgb(96, 218, 102);
+    display: grid;
+    margin: 15px;
+    padding: 5px;
+    grid-template-areas:
+      "h h"
+      "t p"
+      "e e";
+    grid-gap: 10px;
+    // @media screen and (max-device-width: 900px) {
+    //     grid-template-areas:
+    // "h"
+    // "t"
+    // "p";
+    // }
+    .aboutHeading {
+      border: $border;
+      grid-area: h;
+    }
+    .textInfo {
+      border: $border;
+      grid-area: t;
+    }
+    .personalInfo {
+      border: $border;
+      grid-area: p;
+    }
+    .education {
+        border: $border;
+      grid-area: e;
+    }
+  }
+}
