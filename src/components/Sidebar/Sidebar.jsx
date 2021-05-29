@@ -18,12 +18,12 @@ export function Sidebar() {
                     <NavForPages title="Contact" />
                 </nav>
             </div>
-            <div className={s.navFooter}>
+            {/* <div className={s.navFooter}>
                 <NavItem />
                 <NavItem />
                 <NavItem />
                 <NavItem />
-            </div>
+            </div> */}
         </div>
     );
 }

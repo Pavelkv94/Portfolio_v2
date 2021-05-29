@@ -3,6 +3,12 @@
 .skillsContainer {
   border: $border;
   background-color: rgb(238, 168, 111);
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
+  .skillsWrap {
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
 }
