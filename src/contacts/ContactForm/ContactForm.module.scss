@@ -53,4 +53,7 @@
   letter-spacing: 5px;
   display: flex;
   text-align: center;
+  @media screen and (max-device-width: 768px) {
+    bottom: -100px;
+  }
 }
