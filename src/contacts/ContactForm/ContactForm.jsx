@@ -35,6 +35,7 @@ export function ContactForm() {
                 name="message"
                 className={s.textarea}
                 placeholder="Your messaage"
+                className={s.textarea}
             />
             <ValidationError
                 prefix="Message"
