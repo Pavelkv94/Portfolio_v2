@@ -1,1 +1,1 @@
-https://pavelkv94.github.io/Portfolio_v1/
+https://pavelkv94.github.io/Portfolio_v2/
