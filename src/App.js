@@ -1,14 +1,22 @@
-import logo from './logo.svg';
-import './App.scss';
-import { Sidebar } from './components/Sidebar/Sidebar';
-import { Main } from './components/Main/Main';
+import './App.css';
+import { Contacts } from './contacts/Contacts';
+import { FindWork } from './findWork/FindWork';
+import { Footer } from './footer/Footer';
+import { Header } from './header/Header';
+import { Main } from './main/Main';
+import { Projects } from './projects/Projects';
+import { Skills } from './skills/Skills';
 
 function App() {
   return (
     <div className="App">
-      <Sidebar />
+      <Header />
       <Main />
-
+      <Skills />
+      <Projects/>
+      <FindWork/>
+      <Contacts />
+      <Footer/>
     </div>
   );
 }

@@ -1,0 +1,12 @@
+@import "./../common/styles/sass/variables.scss";
+
+.header {
+    position: fixed;
+    height: 80px;
+    width: 100vw;
+    background-color: #25252793;;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+}

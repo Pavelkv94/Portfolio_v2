@@ -1,0 +1,82 @@
+@import "./../common/styles/sass/variables.scss";
+@import "./../common/styles/sass/mixins.scss";
+
+.mainBlock {
+  height: 100vh;
+  background-color: $bgColor;
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+  }
+  .mainTitle {
+    margin: 5px;
+    width: 350px;
+    & h1 {
+      @include text($poppinsFontFamily, 16px, 1.8);
+      font-weight: 400;
+    }
+    & p {
+      @include text($poppinsFontFamily, 27px, 1.8);
+      font-weight: 400;
+      margin: 0;
+    }
+    & span {
+      &:nth-child(2) {
+        @include text($josefineFontFamily, 50px, 1.2);
+        padding: 10px 0 10px;
+        font-weight: 700;
+        position: relative;
+        z-index: 1;
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 10px;
+          height: 20px;
+          width: 100%;
+          z-index: -1;
+          background: #4e93e6;
+        }
+      }
+      &:nth-child(4) {
+        @include text($poppinsFontFamily, 27px, 1.8);
+        margin: 0;
+        ::after {
+          background: none;
+        }
+      }
+    }
+  }
+  @media screen and (max-device-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainPhoto {
+    position: relative;
+    width: 280px;
+    height: 350px;
+    margin: 5px;
+    background-image: url("./../assets/images/avatar.jpg");
+    z-index: 1;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 15px;
+      top: -15px;
+      height: 110%;
+      width: 105%;
+      border: 5px solid #4e93e6;
+      z-index: -1;
+    }
+    @include photo();
+    @media screen and (min-device-width: 1200px) {
+      margin-right: 200px;
+    }
+  }
+}
