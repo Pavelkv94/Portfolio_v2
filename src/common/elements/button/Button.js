@@ -4,11 +4,22 @@ import s from './Button.module.scss'
 
 
 export function Button(props) {
-    return (
-       
-            <button className={s.button} type={props.type}>
+    if (!props.linker) {
+        return (
+            <button className={s.button} type={props.type} >
                 {props.title}
-            </button>
-       
-    )
+            </button >
+
+        )
+    } else {
+        return (
+            <form action={props.linker} style={{width:"150px"}}>
+                <button className={s.button} type={props.type}>
+                    {props.title}
+                </button>
+            </form>
+
+        )
+    }
+
 }
