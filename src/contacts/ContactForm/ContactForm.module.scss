@@ -26,6 +26,9 @@
     background-color: $bgSecColor;
     color: $textColor;
     border: 2px solid rgb(24, 24, 24);
+    @media screen and (max-device-width: 768px) {
+      width: 100%;
+    }
   }
 }
 
