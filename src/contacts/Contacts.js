@@ -13,13 +13,6 @@ export function Contacts() {
                 <div className={`${styleContainer.container} ${s.contactsContainer}`}>
                     <Title title="Contacts" />
                     <ContactForm />
-                    {/* <form className={s.contacts}>
-                        <input type="text" placeholder="Name" className={s.input} />
-                        <input type="email" placeholder="email" className={s.input} />
-                        <textarea placeholder="Your messaage" className={s.textarea} />
-                    </form>
-                    <Button title="Send" type={"submit"} linker="#" />
-                     */}
                 </div>
             </Fade>
         </div>

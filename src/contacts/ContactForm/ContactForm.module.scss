@@ -1,38 +1,31 @@
 @import "./../../common/styles/sass/variables.scss";
 @import "./../../common/styles/sass/mixins.scss";
 
-.contactsBlock {
-  min-height: 100vh;
-  background-color: $bgColor;
-  .contactsContainer {
-    flex-direction: column;
-    .contacts {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      min-width: 50vw;
-      height: 60vh;
-      box-sizing: border-box;
-      padding: 5px;
-      .input {
-        min-width: 40vw;
-        height: 50px;
-        font-size: 20px;
-        background-color: $bgSecColor;
-        border: 2px solid rgb(24, 24, 24);
-        color: $textColor;
-      }
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 50vw;
+  height: 60vh;
+  box-sizing: border-box;
+  padding: 5px;
+  .input {
+    min-width: 40vw;
+    height: 50px;
+    font-size: 20px;
+    background-color: $bgSecColor;
+    border: 2px solid rgb(24, 24, 24);
+    color: $textColor;
+  }
 
-      .textarea {
-        width: 40vw;
-        min-height: 30vh;
-        font-size: 20px;
-        background-color: $bgSecColor;
-        color: $textColor;
-        border: 2px solid rgb(24, 24, 24);
-      }
-    }
+  .textarea {
+    width: 40vw;
+    min-height: 30vh;
+    font-size: 20px;
+    background-color: $bgSecColor;
+    color: $textColor;
+    border: 2px solid rgb(24, 24, 24);
   }
 }
 
@@ -42,4 +35,19 @@
   .textarea {
     width: 100%;
   }
+}
+
+.message {
+  bottom: -200px;
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0 0 56px;
+  font-weight: 400;
+  color: $primaryColor;
+  text-transform: capitalize;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  display: flex;
+  text-align: center;
 }

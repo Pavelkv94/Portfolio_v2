@@ -4,8 +4,22 @@ import styleContainer from '../common/styles/styleContainer.module.css'
 import { Item } from './Item/Item';
 import { faFacebook, faGithub, faLinkedin, faVk } from '@fortawesome/free-brands-svg-icons';
 import Fade from 'react-reveal/Fade';
+import Particles from 'react-particles-js'
 
-
+const particlesOpt = {
+    "particles": {
+        "number": {
+            "value": 150,
+            "density": {
+                "enable": true,
+                "value_area": 1100
+            }
+        },
+        "size": {
+            "value": 3
+        }
+    }
+}
 export function Footer() {
     return (
         <div className={s.footerBlock}>

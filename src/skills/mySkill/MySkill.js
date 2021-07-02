@@ -13,7 +13,7 @@ export function MySkill(props) {
             </div>
             <h3>{props.title}</h3>
             <span className={s.description}>
-                {props.description}
+                {props.description.map(t=><div>{`- ${t}`}</div>)}
             </span>
         </div>
     )

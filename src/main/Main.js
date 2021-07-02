@@ -14,6 +14,9 @@ const particlesOpt = {
                 "enable": true,
                 "value_area": 800
             }
+        },
+        "size": {
+            "value": 3
         }
     }
 }

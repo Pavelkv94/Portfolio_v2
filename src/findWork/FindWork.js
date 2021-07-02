@@ -11,7 +11,7 @@ export function FindWork() {
         <div className={s.findBlock}>
             <Fade bottom>
                 <div className={`${styleContainer.container} ${s.container}`}>
-                    <Title title="I Am Available For Freelancer" />
+                    <Title title="I Am Available For Work" />
                     <Button title="Hire Me" linker="https://www.linkedin.com/in/pavel-kv94/" />
                 </div>
             </Fade>

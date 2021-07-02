@@ -18,38 +18,38 @@ export function Skills() {
                         <MySkill
                             icon={faReact}
                             title="React"
-                            description="React, redux, thunk, react router dom, websocket, RestAPI "
+                            description={["React", "Redux", "Redux Thunk", "React router dom", "Websocket", "RestAPI", "Redux Toolkit"]}
                         />
                         <MySkill
                             icon={faHtml5}
                             title="HTML"
-                            description="HTML5, ESP6"
+                            description={["HTML5", "ESP6"]}
                         />
                         <MySkill
                             icon={faJs}
-                            title="JavaScript"
-                            description="Javascript, Typescript"
+                            title="JavaScript / Typescript"
+                            description={["Javascript", "Typescript"]}
                         />
                         <MySkill
                             icon={faCss3}
                             title="Css3"
-                            description="Css3, SASS, SCSS, bootstrap, flex, grid, Material UI"
+                            description={["Css3", "SASS", "SCSS", "Bootstrap", "Flex", "Grid", "Material UI"]}
                         />
                         <MySkill
                             icon={faNpm}
                             title="npm"
-                            description="npm, storybook, axios, formik"
+                            description={["npm", "Storybook", "Axios", "Formik"]}
                         />
                         <MySkill
                             icon={faGithub}
                             title="Git"
-                            description="GitHub"
+                            description={["GitHub"]}
                         />
                         <MySkill
                             icon={faRocket}
                             title="Other"
-                            description="Refactoring, bug fixing, migrating to TypeScript, registration and login form creation.
-                             Reusable components development, jest testing."
+                            description={["Postman", "Refactoring", "Bug fixing", "Migrating to TypeScript", "Registration and Login form creation",
+                                "Reusable components development", "Jest. Unit testing"]}
                         />
                     </div>
                 </div>

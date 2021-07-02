@@ -14,7 +14,7 @@
   }
   .mainTitle {
     margin: 5px;
-    width: 350px;
+    width: 400px;
     & h1 {
       @include text($poppinsFontFamily, 16px, 1.8);
       font-weight: 400;
@@ -26,7 +26,7 @@
     }
     & span {
       &:nth-child(2) {
-        @include text($josefineFontFamily, 50px, 1.2);
+        @include text($josefineFontFamily, 60px, 1.2);
         padding: 10px 0 10px;
         font-weight: 700;
         position: relative;
@@ -40,7 +40,7 @@
           height: 20px;
           width: 100%;
           z-index: -1;
-          background: #4e93e6;
+          background: $primaryColor;
         }
       }
       &:nth-child(4) {
@@ -63,7 +63,7 @@
     height: 350px;
     margin: 5px;
     background-image: url("./../assets/images/avatar.jpg");
-    z-index: 1;
+    z-index: 2;
     &:before {
       content: "";
       position: absolute;
@@ -71,7 +71,7 @@
       top: -15px;
       height: 110%;
       width: 105%;
-      border: 5px solid #4e93e6;
+      border: 5px solid $primaryColor;
       z-index: -1;
     }
     @include photo();

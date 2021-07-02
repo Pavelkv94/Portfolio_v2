@@ -9,6 +9,7 @@
   align-items: center;
   text-align: center;
   box-sizing: border-box;
+  margin: 8px;
   @media screen and (max-device-width: 768px) {
     min-width: 80vw;
   }
@@ -39,9 +40,10 @@
     padding: 25px 20px;
 
     .title {
-      @include text($josefineFontFamily, 16px, 1.2);
+      @include text($josefineFontFamily, 18px, 1.2);
       letter-spacing: 1px;
       margin: 0 0 5px;
+      color: $textColor
     }
 
     .description {
