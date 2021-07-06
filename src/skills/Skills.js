@@ -38,7 +38,7 @@ export function Skills() {
                         <MySkill
                             icon={faNpm}
                             title="npm"
-                            description={["npm", "Storybook", "Axios", "Formik"]}
+                            description={["npm", "yarn", "Storybook", "Axios", "Formik"]}
                         />
                         <MySkill
                             icon={faGithub}
