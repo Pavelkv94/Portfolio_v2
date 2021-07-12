@@ -23,7 +23,7 @@ export function Skills() {
                         <MySkill
                             icon={faHtml5}
                             title="HTML"
-                            description={["HTML5", "ESP6"]}
+                            description={["HTML5", "ES6"]}
                         />
                         <MySkill
                             icon={faJs}
