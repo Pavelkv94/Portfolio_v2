@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio_v2/static/css/main.c4eaa801.chunk.css",
-    "main.js": "/Portfolio_v2/static/js/main.14730273.chunk.js",
-    "main.js.map": "/Portfolio_v2/static/js/main.14730273.chunk.js.map",
+    "main.js": "/Portfolio_v2/static/js/main.73484ad7.chunk.js",
+    "main.js.map": "/Portfolio_v2/static/js/main.73484ad7.chunk.js.map",
     "runtime-main.js": "/Portfolio_v2/static/js/runtime-main.5e20e4cc.js",
     "runtime-main.js.map": "/Portfolio_v2/static/js/runtime-main.5e20e4cc.js.map",
     "static/js/2.b185814f.chunk.js": "/Portfolio_v2/static/js/2.b185814f.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/calc.51fb3703.jpg": "/Portfolio_v2/static/media/calc.51fb3703.jpg",
     "static/media/counter.dbebcd6c.jpg": "/Portfolio_v2/static/media/counter.dbebcd6c.jpg",
     "static/media/displayApp.42dffe62.jpg": "/Portfolio_v2/static/media/displayApp.42dffe62.jpg",
+    "static/media/learn.b004a4aa.jpg": "/Portfolio_v2/static/media/learn.b004a4aa.jpg",
     "static/media/login.edb0f3d4.jpg": "/Portfolio_v2/static/media/login.edb0f3d4.jpg",
     "static/media/meditation.9a162783.jpg": "/Portfolio_v2/static/media/meditation.9a162783.jpg",
     "static/media/todolist.0dbf831f.jpg": "/Portfolio_v2/static/media/todolist.0dbf831f.jpg"
@@ -24,6 +25,6 @@
     "static/js/runtime-main.5e20e4cc.js",
     "static/js/2.b185814f.chunk.js",
     "static/css/main.c4eaa801.chunk.css",
-    "static/js/main.14730273.chunk.js"
+    "static/js/main.73484ad7.chunk.js"
   ]
 }
