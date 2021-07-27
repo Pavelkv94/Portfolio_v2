@@ -9,6 +9,7 @@ import momentumImage from './../assets/images/displayApp.jpg'
 import todolistImage from './../assets/images/todolist.jpg'
 import counterImage from './../assets/images/counter.jpg'
 import loginImage from './../assets/images/login.jpg'
+import learnImage from './../assets/images/learn.jpg'
 import Fade from 'react-reveal/Fade';
 
 
@@ -31,12 +32,21 @@ export function Projects() {
     const login = {
         backgroundImage: `url(${loginImage})`,
     };
+    const learnCards = {
+        backgroundImage: `url(${learnImage})`,
+    };
     return (
         <div className={s.projectsBlock} id="projects">
             <Fade bottom>
                 <div className={`${styleContainer.container} ${s.projectsContainer}`}>
                     <Title title="My projects" />
                     <div className={s.projects}>
+                        <SingleProject
+                            title="Learn Cards App"
+                            description={["Typescript", "React", "Redux", "Redux thunk", "React router dom", "RestAPI"]}
+                            style={learnCards}
+                            linker="https://sozdatel31.github.io/FridayIgnatProject/#/profile"
+                        />
                         <SingleProject
                             title="Todolist"
                             description={["Typescript", "React", "Redux", "Redux thunk", "Redux Toolkit", "React router dom", "RestAPI"]}
