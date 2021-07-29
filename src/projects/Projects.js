@@ -43,7 +43,7 @@ export function Projects() {
                     <div className={s.projects}>
                         <SingleProject
                             title="Learn Cards App"
-                            description={["Typescript", "React", "Redux", "Redux thunk", "React router dom", "RestAPI"]}
+                            description={["Typescript", "React", "Redux", "Redux thunk", "React router dom", "RestAPI", "axios"]}
                             style={learnCards}
                             linker="https://sozdatel31.github.io/FridayIgnatProject/#/profile"
                         />
