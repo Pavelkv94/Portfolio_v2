@@ -33,7 +33,7 @@ export function Skills() {
                         <MySkill
                             icon={faCss3}
                             title="Css3"
-                            description={["Css3", "SASS", "SCSS", "Bootstrap", "Flex", "Grid", "Material UI"]}
+                            description={["Css3", "SASS", "SCSS", "Bootstrap", "Flex", "Grid", "Material UI", "Ant-Design"]}
                         />
                         <MySkill
                             icon={faNpm}
@@ -49,7 +49,7 @@ export function Skills() {
                             icon={faRocket}
                             title="Other"
                             description={["Postman", "Refactoring", "Bug fixing", "Migrating to TypeScript", "Registration and Login form creation",
-                                "Reusable components development", "Jest. Unit testing"]}
+                                "Reusable components development", "Jest. Unit testing", "CodeWars"]}
                         />
                     </div>
                 </div>

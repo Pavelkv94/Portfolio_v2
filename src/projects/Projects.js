@@ -10,6 +10,7 @@ import todolistImage from './../assets/images/todolist.jpg'
 import counterImage from './../assets/images/counter.jpg'
 import loginImage from './../assets/images/login.jpg'
 import learnImage from './../assets/images/learn.jpg'
+import snImage from './../assets/images/sn.jpg'
 import Fade from 'react-reveal/Fade';
 
 
@@ -35,6 +36,9 @@ export function Projects() {
     const learnCards = {
         backgroundImage: `url(${learnImage})`,
     };
+    const sn = {
+        backgroundImage: `url(${snImage})`,
+    };
     return (
         <div className={s.projectsBlock} id="projects">
             <Fade bottom>
@@ -54,10 +58,10 @@ export function Projects() {
                             linker="https://pavelkv94.github.io/Todolist/"
                         />
                         <SingleProject
-                            title="Calculator"
-                            description={["Native JS", "Localstorage", "Work with DOM"]}
-                            style={calc}
-                            linker="https://pavelkv94.github.io/calculator"
+                            title="Social Network"
+                            description={["Typescript", "React", "Redux", "Redux thunk", "WebSocket", "React router dom", "RestAPI", "Jest", "Ant-Design"]}
+                            style={sn}
+                            linker="https://pavelkv94.github.io/Social-Network/"
                         />
                         <SingleProject
                             title="Meditation-App"
@@ -65,6 +69,13 @@ export function Projects() {
                             style={meditation}
                             linker="https://pavelkv94.github.io/Meditation-App/"
                         />
+                        <SingleProject
+                            title="Calculator"
+                            description={["Native JS", "Localstorage", "Work with DOM"]}
+                            style={calc}
+                            linker="https://pavelkv94.github.io/calculator"
+                        />
+
                         <SingleProject
                             title="Momentum-App"
                             description={["Native JS", "Localstorage", "Work with DOM", "Work with Date object"]}
