@@ -13,7 +13,7 @@ export function Button(props) {
         )
     } else {
         return (
-            <form action={props.linker} style={{width:"150px"}}>
+            <form action={props.linker} style={{ width: "150px" }} target="blank">
                 <button className={s.button} type={props.type}>
                     {props.title}
                 </button>
