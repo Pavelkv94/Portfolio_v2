@@ -3,9 +3,9 @@ import s from './Skills.module.scss'
 import styleContainer from '../common/styles/styleContainer.module.css'
 import { MySkill } from './mySkill/MySkill';
 import { Title } from '../common/elements/Title/Title';
-import { faCss3, faGithub, faHtml5, faJs, faNpm, faReact, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
+import { faCss3, faGithub, faHtml5, faJs, faNpm, faReact } from '@fortawesome/free-brands-svg-icons';
 import Fade from 'react-reveal/Fade';
-import { faFax, faRocket } from '@fortawesome/free-solid-svg-icons';
+import { faRocket } from '@fortawesome/free-solid-svg-icons';
 
 
 export function Skills() {
@@ -18,7 +18,7 @@ export function Skills() {
                         <MySkill
                             icon={faReact}
                             title="React"
-                            description={["React", "Redux", "Redux Thunk", "React router dom", "Websocket", "RestAPI", "Redux Toolkit"]}
+                            description={["React", "Redux", "Redux Thunk", "Redux Saga", "React router dom", "Websocket", "RestAPI", "Redux Toolkit"]}
                         />
                         <MySkill
                             icon={faHtml5}
@@ -33,7 +33,7 @@ export function Skills() {
                         <MySkill
                             icon={faCss3}
                             title="Css3"
-                            description={["Css3", "SASS", "SCSS", "Bootstrap", "Flex", "Grid", "Material UI", "Ant-Design"]}
+                            description={["Css3", "SASS", "SCSS", "Bootstrap", "Flex", "Grid", "Material UI", "Ant-Design", "Semantic-Ui-React"]}
                         />
                         <MySkill
                             icon={faNpm}
@@ -43,12 +43,12 @@ export function Skills() {
                         <MySkill
                             icon={faGithub}
                             title="Git"
-                            description={["GitHub"]}
+                            description={["GitHub", "GitLab"]}
                         />
                         <MySkill
                             icon={faRocket}
                             title="Other"
-                            description={["Postman", "Refactoring", "Bug fixing", "Migrating to TypeScript", "Registration and Login form creation",
+                            description={["Postman", "MongoDB", "Refactoring", "Bug fixing", "Migrating to TypeScript", "Registration and Login form creation",
                                 "Reusable components development", "Jest. Unit testing", "CodeWars"]}
                         />
                     </div>

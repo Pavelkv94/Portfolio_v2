@@ -11,6 +11,7 @@ import counterImage from './../assets/images/counter.jpg'
 import loginImage from './../assets/images/login.jpg'
 import learnImage from './../assets/images/learn.jpg'
 import snImage from './../assets/images/sn.jpg'
+import gitMonImage from './../assets/images/gitMon.png'
 import Fade from 'react-reveal/Fade';
 
 
@@ -38,6 +39,9 @@ export function Projects() {
     };
     const sn = {
         backgroundImage: `url(${snImage})`,
+    };
+	const gitMon = {
+        backgroundImage: `url(${gitMonImage})`,
     };
     return (
         <div className={s.projectsBlock} id="projects">
@@ -87,6 +91,12 @@ export function Projects() {
                             description={["Typescript", "React", "Redux", "LocalStorage"]}
                             style={counter}
                             linker="https://pavelkv94.github.io/Counter/"
+                        />
+						<SingleProject
+                            title="Github-Monitor"
+                            description={["Typescript", "React", "Semantic-ui-react", "Wort with API"]}
+                            style={gitMon}
+                            linker="http://Pavelkv94.github.io/Github-monitor"
                         />
                         <SingleProject
                             title="Login Example"
